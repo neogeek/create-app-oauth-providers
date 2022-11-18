@@ -2,7 +2,6 @@
   "name": "@neogeek/create-app-oauth-providers",
   "description": "@neogeek's Create App OAuth Providers",
   "version": "1.0.0",
-  "type": "module",
   "engines": {
     "node": ">=16.13.0"
   },
