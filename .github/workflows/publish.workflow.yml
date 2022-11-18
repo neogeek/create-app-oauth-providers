@@ -42,6 +42,6 @@ jobs:
         run: |
           npm config set @neogeek:registry https://registry.npmjs.org
           npm config set //registry.npmjs.org/:_authToken ${{ secrets.NPM_AUTH_TOKEN }}
-          npm publish --access public
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
