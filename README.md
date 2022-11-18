@@ -1,5 +1,8 @@
 # @neogeek/create-app-oauth-providers
 
+[![Tests](https://github.com/neogeek/create-app-oauth-providers/actions/workflows/test.workflow.yml/badge.svg)](https://github.com/neogeek/create-app-oauth-providers/actions/workflows/test.workflow.yml)
+[![NPM version](https://img.shields.io/npm/v/@neogeek/create-app-oauth-providers?style=flat-square)](https://www.npmjs.org/package/@neogeek/create-app-oauth-providers)
+
 ## Install
 
 ```bash
