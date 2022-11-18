@@ -1,0 +1,42 @@
+{
+  "name": "@neogeek/create-app-oauth-providers",
+  "description": "@neogeek's Create App OAuth Providers",
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "dependencies": {
+    "zod": "3.19.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "7.6.0",
+    "@types/jest": "29.2.3",
+    "@types/node": "18.11.9",
+    "@typescript-eslint/eslint-plugin": "5.43.0",
+    "@typescript-eslint/parser": "5.43.0",
+    "eslint": "8.27.0",
+    "http-status-codes": "2.2.0",
+    "jest": "29.3.1",
+    "rimraf": "3.0.2",
+    "ts-jest": "29.0.3",
+    "typescript": "4.9.3"
+  },
+  "scripts": {
+    "prepublish": "tsc",
+    "build": "npm run clean && tsc -p ./tsconfig.build.json",
+    "build:watch": "tsc --watch",
+    "test": "jest --runInBand",
+    "clean": "rimraf dist coverage"
+  },
+  "homepage": "https://github.com/neogeek/create-app-oauth-providers",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neogeek/create-app-oauth-providers.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
