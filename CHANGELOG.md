@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.0.3](https://github.com/neogeek/create-app-oauth-providers/tree/v1.0.3) - (2022-12-22)
+
+[Full Changelog](https://github.com/neogeek/create-app-oauth-providers/compare/v1.0.2...v1.0.3)
+
+- [hotfix] Updated packages. [#6](https://github.com/neogeek/create-app-oauth-providers/pull/6)
+- [hotfix] Updated packages. [#5](https://github.com/neogeek/create-app-oauth-providers/pull/5)
+- [hotfix] Updated packages. [#4](https://github.com/neogeek/create-app-oauth-providers/pull/4)
+
 ## [v1.0.2](https://github.com/neogeek/create-app-oauth-providers/tree/v1.0.2) - (2022-11-18)
 
 [Full Changelog](https://github.com/neogeek/create-app-oauth-providers/compare/v1.0.1...v1.0.2)
