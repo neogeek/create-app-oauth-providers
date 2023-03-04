@@ -1,7 +1,7 @@
 {
   "name": "@neogeek/create-app-oauth-providers",
   "description": "@neogeek's Create App OAuth Providers",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "engines": {
     "node": ">=18.14"
   },
@@ -34,8 +34,5 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/neogeek/create-app-oauth-providers.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   }
 }
